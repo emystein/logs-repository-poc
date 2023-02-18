@@ -1,4 +1,4 @@
-rootProject.name = "platform-logs"
+rootProject.name = "log-repository-poc"
 include("core")
 include("elasticsearch")
 include("mongodb")

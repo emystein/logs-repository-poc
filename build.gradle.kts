@@ -7,9 +7,10 @@ buildscript {
 }
 
 plugins {
-	kotlin("jvm") version "1.5.21" apply false
-	kotlin("kapt") version "1.5.21" apply false
-	kotlin("plugin.spring") version "1.5.21" apply false
+	val kotlinVersion = "1.7.10"
+	kotlin("jvm") version kotlinVersion apply false
+	kotlin("kapt") version kotlinVersion apply false
+	kotlin("plugin.spring") version kotlinVersion apply false
 	id("org.springframework.boot") version "2.5.4" apply false
 }
 
